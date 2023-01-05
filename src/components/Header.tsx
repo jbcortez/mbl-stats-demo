@@ -9,8 +9,10 @@ const Header = () => {
         <a
           href={"https://www.github.com/jbcortez/mlb-stats-demo"}
           target={"_blank"}
+          rel="noreferrer"
+          aria-label={"Github Repo"}
         >
-          <GithubOutlined style={{ fontSize: "2.6rem" }} />
+          <GithubOutlined style={{ fontSize: "2.6rem", cursor: "pointer" }} />
         </a>
       </InnerContainer>
     </HeaderStyles>
