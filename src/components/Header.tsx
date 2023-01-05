@@ -12,7 +12,9 @@ const Header = () => {
           rel="noreferrer"
           aria-label={"Github Repo"}
         >
-          <GithubOutlined style={{ fontSize: "2.6rem", cursor: "pointer" }} />
+          <GithubOutlined
+            style={{ fontSize: "2.6rem", cursor: "pointer", color: "#222" }}
+          />
         </a>
       </InnerContainer>
     </HeaderStyles>
