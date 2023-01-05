@@ -6,7 +6,12 @@ const Header = () => {
     <HeaderStyles>
       <InnerContainer>
         <Title>MLB Statistics Demo</Title>
-        <GithubOutlined style={{ fontSize: "2.6rem" }} />
+        <a
+          href={"https://www.github.com/jbcortez/mlb-stats-demo"}
+          target={"_blank"}
+        >
+          <GithubOutlined style={{ fontSize: "2.6rem" }} />
+        </a>
       </InnerContainer>
     </HeaderStyles>
   );
